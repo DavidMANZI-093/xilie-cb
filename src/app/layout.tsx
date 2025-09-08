@@ -22,18 +22,18 @@ export const metadata: Metadata = {
   authors: [{ name: "Xilie Team" }],
   creator: "d3fault",
   publisher: "d3fault",
-  metadataBase: new URL("https://xilie.app"),
+  metadataBase: new URL("https://xilie-callback.vercel.app"),
   openGraph: {
     title: "Xilie Spotify - OAuth Callback",
     description:
       "Complete the OAuth flow to connect your Spotify account to Xilie VS Code extension.",
-    url: "https://xilie.app/auth/callback",
+    url: "https://xilie-callback.vercel.app",
     siteName: "Xilie",
     images: [
       {
-        url: "https://xilie.app/og-image.png",
-        width: 1200,
-        height: 630,
+        url: "https://xilie-callback.vercel.app/web-app-manifest-192x192.png",
+        width: 192,
+        height: 192,
         alt: "Xilie Spotify Integration",
       },
     ],
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     title: "Xilie Spotify - OAuth Callback",
     description:
       "Complete the OAuth flow to connect your Spotify account to Xilie VS Code extension.",
-    images: ["https://xilie.app/og-image.png"],
-    creator: "@xilieapp",
+    images: ["https://xilie-callback.vercel.app/web-app-manifest-192x192.png"],
+    creator: "@DavidMANZI_093",
   },
   robots: {
     index: false,
