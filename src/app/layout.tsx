@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { Suspense } from "react";
 
@@ -9,7 +9,61 @@ const geistMono = GeistMono;
 
 export const metadata: Metadata = {
   title: "Xilie Spotify - OAuth Callback",
-  description: "Authentication callback for Xilie Spotify VS Code extension",
+  description:
+    "Authentication callback for Xilie Spotify VS Code extension. Complete the OAuth flow to connect your Spotify account.",
+  keywords: [
+    "Xilie",
+    "Spotify",
+    "VS Code",
+    "OAuth",
+    "Authentication",
+    "Callback",
+  ],
+  authors: [{ name: "Xilie Team" }],
+  creator: "d3fault",
+  publisher: "d3fault",
+  metadataBase: new URL("https://xilie.app"),
+  openGraph: {
+    title: "Xilie Spotify - OAuth Callback",
+    description:
+      "Complete the OAuth flow to connect your Spotify account to Xilie VS Code extension.",
+    url: "https://xilie.app/auth/callback",
+    siteName: "Xilie",
+    images: [
+      {
+        url: "https://xilie.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Xilie Spotify Integration",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Xilie Spotify - OAuth Callback",
+    description:
+      "Complete the OAuth flow to connect your Spotify account to Xilie VS Code extension.",
+    images: ["https://xilie.app/og-image.png"],
+    creator: "@xilieapp",
+  },
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-icon.png",
+  },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({

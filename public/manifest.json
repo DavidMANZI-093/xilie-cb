@@ -1,0 +1,39 @@
+{
+  "name": "Xilie Spotify",
+  "short_name": "Xilie",
+  "description": "OAuth callback for Xilie Spotify VS Code extension",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#7b2cff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["developer tools", "productivity", "music"],
+  "shortcuts": [
+    {
+      "name": "Authorize with Spotify",
+      "short_name": "Authorize",
+      "description": "Complete the OAuth flow to connect your Spotify account",
+      "url": "/"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://xilie.app/manifest.json"
+    }
+  ]
+}
