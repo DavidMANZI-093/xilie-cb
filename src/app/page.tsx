@@ -64,7 +64,7 @@ export default function SpotifyCallback() {
       <Card className="w-full max-w-md bg-raisin-black border-onyx shadow-2xl">
         <CardHeader className="text-center pb-4">
           <div className="flex justify-center-mb-4">
-            <Image src="xilie-icon.png" alt="Xilie Logo" width={64} height={64} className="rounded-lg" />
+            <Image src="icon1.png" alt="Xilie Logo" width={64} height={64} className="rounded-lg" />
           </div>
           <CardTitle className="text-silver text-xl font-medium">Xilie Spotify Authentication</CardTitle>
           <CardDescription className="text-battleship-gray text-sm">VS Code Extension OAuth Callback</CardDescription>
