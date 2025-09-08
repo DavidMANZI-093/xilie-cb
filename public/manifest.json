@@ -33,7 +33,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://xilie.app/manifest.json"
+      "url": "https://xilie-callback.vercel.app/manifest.json"
     }
   ]
 }
