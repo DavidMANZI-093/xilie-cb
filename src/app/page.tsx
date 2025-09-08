@@ -77,7 +77,7 @@ export default function SpotifyCallback() {
     <div className="min-h-screen bg-eerie-black flex items-center justify-center p-4">
       <Card className="w-full max-w-md bg-raisin-black border-onyx shadow-2xl">
         <CardHeader className="text-center pb-4">
-          <div className="flex justify-center-mb-4">
+          <div className="flex justify-center mb-4">
             <Image
               src="icon1.png"
               alt="Xilie Logo"
