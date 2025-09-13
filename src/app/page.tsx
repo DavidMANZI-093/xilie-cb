@@ -116,7 +116,7 @@ export default function SpotifyCallback() {
                   <Button
                     onClick={copyToClipboard}
                     size="sm"
-                    className="absolute top-2 right-2 h-7 w-7 p-0 bg-blue-violet hover:bg-electric-indigo text-white"
+                    className="absolute cursor-pointer top-2 right-2 h-7 w-7 p-0 bg-blue-violet hover:bg-electric-indigo text-white"
                   >
                     {copied ? (
                       <Check className="h-3 w-3" />
